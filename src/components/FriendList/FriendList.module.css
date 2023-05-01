@@ -1,0 +1,37 @@
+.friendslist {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.friendsitem {
+    display: flex;
+    align-items: center;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .status {
+    display: block;
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+  }
+  
+  .online {
+    /* extend: status; */
+    background: green;
+  }
+  
+  .offline {
+    /* composes: status; */
+    background: red;
+  }
+  
+  .name {
+    font-size: 20px;
+    margin-left: 20px;
+  }

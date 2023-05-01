@@ -1,23 +1,23 @@
 table {
-    width: 1000px;
-      border: 2px solid grey;
-  }
-  
-  thead {
-      background-color: rgb(75, 214, 249);
-      border: none;
-      height: 40px;
-  }
-  
-  td {
-      text-align: center;
-      padding: 7px;
-  }
-  
-  tbody tr:nth-child(even) {
-      background-color: rgb(218, 252, 255);
-  }
-  
-  .name {
-      text-transform: capitalize;
-  }
+  width: 1000px;
+  border: 2px solid grey;
+}
+
+thead {
+  background-color: rgb(75, 214, 249);
+  border: none;
+  height: 40px;
+}
+
+td {
+  text-align: center;
+  padding: 7px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgb(218, 252, 255);
+}
+
+.name {
+  text-transform: capitalize;
+}
